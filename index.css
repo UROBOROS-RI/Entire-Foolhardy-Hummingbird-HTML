@@ -21,21 +21,12 @@
   justify-content: center;
 }
  
-.banner3-image {
-  top: 114px;
-  left: 32px;
-  width: 480px;
-  height: 539px;
-  position: absolute;
-  object-fit: cover;
-}
- 
 .banner3-max-width {
   gap: var(--dl-layout-space-oneandhalfunits);
-  top: 82px;
-  right: -22px;
-  width: 655px;
-  height: 429px;
+  top: 128px;
+  right: 16px;
+  width: 739px;
+  height: 424px;
   display: flex;
   z-index: 100;
   position: absolute;
@@ -54,11 +45,22 @@
  
 .banner3-heading {
   top: 136px;
-  left: -24px;
+  left: 0px;
+  right: 0px;
   width: 575px;
   height: 0px;
+  margin: auto;
   position: absolute;
   text-align: justify;
+}
+ 
+.banner3-image {
+  top: 114px;
+  left: 78px;
+  width: 480px;
+  height: 539px;
+  position: absolute;
+  object-fit: cover;
 }
  
 .home-fragment10 {
@@ -68,6 +70,11 @@
 .home-text10 {
   color: var(--dl-color-theme-neutral-dark);
   display: inline-block;
+}
+ 
+.banner3root-class-name {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: var(--dl-color-theme-neutral-dark);
 }
 
 .features24-wrapper {
@@ -460,6 +467,14 @@
   align-items: flex-start;
 }
  
+.footer4-navlink {
+  text-decoration: none;
+}
+ 
+.footer4-link {
+  text-decoration: none;
+}
+ 
 .footer4-credits {
   gap: var(--dl-layout-space-twounits);
   display: flex;
@@ -487,9 +502,17 @@
   align-items: flex-start;
 }
  
-.footer4-text11 {
+.footer4-text2 {
   fill: var(--dl-color-theme-neutral-dark);
   color: var(--dl-color-theme-neutral-dark);
+}
+ 
+.home-fragment23 {
+  display: contents;
+}
+ 
+.home-text23 {
+  display: inline-block;
 }
  
 .home-fragment24 {
@@ -497,6 +520,14 @@
 }
  
 .home-text24 {
+  display: inline-block;
+}
+ 
+.home-fragment21 {
+  display: contents;
+}
+ 
+.home-text21 {
   display: inline-block;
 }
  
@@ -513,30 +544,6 @@
 }
  
 .home-text25 {
-  display: inline-block;
-}
- 
-.home-fragment21 {
-  display: contents;
-}
- 
-.home-text21 {
-  display: inline-block;
-}
- 
-.home-fragment23 {
-  display: contents;
-}
- 
-.home-text23 {
-  display: inline-block;
-}
- 
-.home-fragment26 {
-  display: contents;
-}
- 
-.home-text26 {
   display: inline-block;
 }
  
@@ -697,13 +704,5 @@
 }
  
 .home-text25 {
-  display: inline-block;
-}
- 
-.home-fragment26 {
-  display: contents;
-}
- 
-.home-text26 {
   display: inline-block;
 }
